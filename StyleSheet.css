@@ -17,7 +17,9 @@ p{
  
 }
 
-
+a{
+    text-decoration:none;
+}
 #menu {
     
     width:17px;
@@ -31,6 +33,10 @@ p{
  
 }
 
+#menu:hover{
+    opacity:1;
+}
+
 ul{
     margin:0;
     padding:0;  
@@ -38,12 +44,15 @@ ul{
 }
 
 li{
+   
     list-style-type:none;
     display: inline-block;
     padding-left: .5rem;
     padding-right: .5rem;
 
 }
+
+
 
 li:hover{
     text-decoration:underline;
@@ -86,13 +95,16 @@ button p{
     margin:auto;
 
 }
-.logo{
-    display:inline-block;
-    margin:auto;
-    margin-top:10rem;
-     margin-left:20rem;
+.center{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
 }
 
+.container img{
+    margin-top:12rem;
+}
 .footer{
     position: absolute;
     bottom:0;
