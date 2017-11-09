@@ -141,7 +141,7 @@ button p{
     margin-top:.4%;
     padding:0;
     width: 10%;
-    right: 19.5%;
+    right: 40px;
     border: 1px solid white;
     background-color:#000000;
     box-shadow: 1px 1px 2px #565656;
@@ -161,7 +161,7 @@ button p{
 }
 
 .microphone:hover  .searchbyvoice {
-    display: block;
+    display: none;
     }
 
 
