@@ -13,15 +13,13 @@ p{
 
 .header{
     position:relative;
-    margin-top:.5rem;
- 
+    margin-top:.65rem;
 }
 
 a{
     text-decoration:none;
 }
-#menu {
-    
+#menu {    
     width:17px;
     height:17px;
     background-image: url('menu.jpg');
@@ -29,8 +27,7 @@ a{
     background-size: contain;
     background-repeat:no-repeat;
     opacity:.5;
-   margin:auto;
- 
+    margin:auto;
 }
 
 #menu:hover{
@@ -40,18 +37,14 @@ a{
 ul{
     margin:0;
     padding:0;  
-
 }
 
 li{
-   
     list-style-type:none;
     display: inline-block;
     padding-left: .5rem;
     padding-right: .5rem;
-
 }
-
 
 
 li:hover{
@@ -62,13 +55,13 @@ li:hover{
 ul li{
     vertical-align:middle;
 }
+
 button{
     height:30px;
     border-radius:8%;
     border:none;
     background-color:#4285F4;
-    color:white;
-    
+    color:white;  
 }
 
 button p{
@@ -90,15 +83,15 @@ button p{
     float:right;
     padding-right:.5rem;
 }
+
 .container{
     position:relative;
-    margin:auto;
 
 }
 .center{
     display:block;
-    margin-right:auto;
-    margin-left:auto;
+    margin:auto;
+
     text-align: center;
 }
 
@@ -114,7 +107,26 @@ button p{
     overflow:auto;
 }
 
+.searchbox{
+    width:575px;
+    height:35px;
+    margin:auto;
+    margin-bottom: 7%;
+    border: 1px solid #e8e8e8;
+    border-radius:2px;
+    box-shadow: 2px 5px 7px #e4e4e4;
+}
+.searchbox:hover{
+    box-shadow: 2px 5px 5px #c7c7c7;
+}
+.searchbox input {
+    border:none;
+    width:100%;
+    height:98%;
+    font-size:18px;
+
+}
 #white{
-    height:20px;
+    height:10px;
     background-color:white;
 }
