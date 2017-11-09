@@ -110,13 +110,13 @@ button p{
     width:575px;
     height:42px;
   box-sizing:border-box;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     border: 1px solid #e8e8e8;
     border-radius:2px;
-    box-shadow: 2px 5px 7px #e4e4e4;
+    box-shadow: 1px 2px 7px #e4e4e4;
 }
 .searchbox:hover{
-    box-shadow: 2px 5px 5px #c7c7c7;
+    box-shadow: 2px 3px 5px #c7c7c7;
 }
 .searchbox input {
     border:none;
@@ -134,8 +134,38 @@ button p{
     padding:1.5%;
     float:right;
     margin-right:1%;
-
 }
+
+.searchbyvoice{
+    position:absolute;
+    margin-top:.4%;
+    padding:0;
+    width: 10%;
+    right: 19.5%;
+    border: 1px solid white;
+    background-color:#000000;
+    box-shadow: 1px 1px 2px #565656;
+    display: none;
+}
+.searchbyvoice p{
+    
+    display:block;
+    Color:white;
+    padding:4%;
+    margin:0;
+    font-size: 11px;
+}
+
+.microphone{
+    display:inline;
+}
+
+.microphone:hover  .searchbyvoice {
+    display: block;
+    }
+
+
+
 input:focus {
     outline:none;
     border:none;
@@ -145,3 +175,17 @@ input:focus {
     height:10px;
     background-color:white;
 }
+
+.buttons input{
+    background-color:#F5F5F5;
+    color:#757575;
+    margin-left:.5%;
+    font-weight:bold;
+    padding:1.5%;
+    border: none;
+}
+
+.buttons input:hover {
+    color:#000000;
+    border: .5px solid #c7c7c7;
+    }
